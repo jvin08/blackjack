@@ -1,0 +1,44 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    text-align: center;
+    background: url("images/blackjack-table-612x612.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button{
+    width: 150px;
+    background-color: goldenrod;
+    color: #029207;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: 4px auto;
+}
+
+button:hover{
+    color: #02bf08;
+}
+
+#imageContainer-el{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-left: -40px;
+}
